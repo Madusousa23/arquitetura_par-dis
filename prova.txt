@@ -1,0 +1,50 @@
+PROVA Sistemas arquiteturas Distribuidos
+
+docker
+comandos docker
+arquivo: dockerfile
+
+
+from python:3.12-slim
+workdir - pasta principal da minha aplicação
+copy requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+Nomeação - Não cai
+
+
+nuvem - geral - elasticidade (tudo da outra matéria)
+Docker
+sincronização - Teoria
+
+código: docker (python-sistemas distribuidos)
+
+computação distribuida
+
+obrigatóriamente precisa ter uma FALHA PARCIAL
+
+-sincronização - LAMPORT - NTP -
+
+QUESTÃO PROVA - PÁGINA 5 - LAMPORT (teoria)
+
+
+
+não existe sistema que não gere eventos
+
+Programação orientada a Serviço (SOA)
+
+PYTHON - WORKERS
+
+ARQUIVO: fibonacci_process_pool.py / labs_apd \ fibonacci_pool\ barbara - slide página 10 "linha 25" "podemos criar um processo"
+
+cf. ProcessPoolExecutor : cria  "processo" - é um processo, mas podemos colocar threads 
+
+latência / Throughput (saber +-)
+
+Modelos de Nuvem (iaas, saas, paas)
+
+lamport (parede X)
+
+SINCRONO NÃO TEM FILA
+
